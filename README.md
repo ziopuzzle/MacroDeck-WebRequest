@@ -6,6 +6,7 @@ Web request plugin for MacroDeck
 
 ## Features
 Supported method: GET / POST / PUT / DELETE / PATCH
+
 Default User-Agent: MacroDeck-WebRequest/1.0
 
 ## Variables
