@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RootNamespace>ziopuzzle.WebRequest</RootNamespace>
+		<TargetFramework>net10.0-windows10.0.22000</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+		<Authors>ziopuzzle</Authors>
+		<Version>1.0.0</Version>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<Platforms>AnyCPU;x64</Platforms>
+		<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+	</PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="SuchByte.MacroDeck" Version="2.15.0" />
+    </ItemGroup>
+</Project>

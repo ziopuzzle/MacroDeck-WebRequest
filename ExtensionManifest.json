@@ -1,0 +1,11 @@
+{
+    "type" : "Plugin",
+    "name" : "WebRequest",
+    "author" : "ziopuzzle",
+    "repository" : "https://github.com/ziopuzzle/MacroDeck-WebRequest",
+    "packageId" : "ziopuzzle.WebRequest",
+    "version" : "1.0.0",
+    "target-plugin-api-version" : 41,
+    "target-macro-deck-version" : "2.15.0",
+    "dll" : "ziopuzzle.WebRequest.dll"
+}
