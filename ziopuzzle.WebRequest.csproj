@@ -7,7 +7,7 @@
 		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
 		<AssemblyName>ziopuzzle.WebRequest</AssemblyName>
 		<Authors>ziopuzzle</Authors>
-		<Version>1.1.0</Version>
+		<Version>1.1.2</Version>
 		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
 		<Platforms>AnyCPU;x64</Platforms>
 		<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>

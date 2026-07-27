@@ -5,9 +5,9 @@ Web request plugin for MacroDeck
 - This is a plugin for [Macro Deck 2](https://github.com/Macro-Deck-App/Macro-Deck)(v2.15.0), it does NOT function as a standalone app!
 
 ## Features
-Supported method: GET / POST / PUT / DELETE / PATCH
+Supported method: GET, POST, PUT, DELETE, PATCH and other (manual input)
 
-Supported variables
+Supported variables (input and output)
 
 Default User-Agent: MacroDeck-WebRequest/1.0
 
