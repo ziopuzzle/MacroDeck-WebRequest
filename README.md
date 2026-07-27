@@ -16,5 +16,5 @@ A variable is created after the request.
 
 | Variable | Description | Type |
 | --- | --- | --- |
-| [Variable Name]_status<br>Default:wr_responce_status | HTTP status code of last request | Integer |
-| [Variable Name]_body<br>Default:wr_responce_body | Response of last request | String |
+| [Variable Name]_status<br>Default:wr_response_status | HTTP status code of last request | Integer |
+| [Variable Name]_body<br>Default:wr_response_body | Response of last request | String |

@@ -61,7 +61,7 @@ namespace ziopuzzle.WebRequest.Form
             _headersContainer = new FlowLayoutPanel { Location = new Point(0, 254), Width = 576, Height = 112, AutoScroll = true, FlowDirection = FlowDirection.TopDown, WrapContents = false, BorderStyle = BorderStyle.FixedSingle };
 
             var lblVarName = new Label { Text = "Variable Name", Location = new Point(0, 376), AutoSize = true, ForeColor = Color.White };
-            _txtVarName = new TextBox { Location = new Point(156, 376), Width = 422, PlaceholderText = "wr_responce => wr_responce_status(body)" };
+            _txtVarName = new TextBox { Location = new Point(156, 376), Width = 422, PlaceholderText = "wr_response => wr_response_status(body)" };
             _txtBody.Enter += Control_Enter;
 
             this.Controls.Add(lblMethod);

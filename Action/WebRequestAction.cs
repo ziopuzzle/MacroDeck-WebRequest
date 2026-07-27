@@ -88,7 +88,7 @@ namespace ziopuzzle.WebRequest.Action
                 string responseBody = await response.Content.ReadAsStringAsync();
 
                 VariableManager.SetValue(
-                    $"wr_responce_status",
+                    $"wr_response_status",
                     statusCode,
                     VariableType.Integer,
                     Main.Instance,
@@ -96,7 +96,7 @@ namespace ziopuzzle.WebRequest.Action
                 );
 
                 VariableManager.SetValue(
-                    $"wr_responce_body",
+                    $"wr_response_body",
                     responseBody,
                     VariableType.String,
                     Main.Instance,
@@ -124,7 +124,7 @@ namespace ziopuzzle.WebRequest.Action
             } catch (Exception ex)
             {
                 VariableManager.SetValue(
-                    $"wr_responce_status",
+                    $"wr_response_status",
                     0,
                     VariableType.Integer,
                     Main.Instance,
@@ -132,7 +132,7 @@ namespace ziopuzzle.WebRequest.Action
                 );
 
                 VariableManager.SetValue(
-                    $"wr_responce_body",
+                    $"wr_response_body",
                     ex.Message,
                     VariableType.String,
                     Main.Instance,
