@@ -7,11 +7,14 @@ Web request plugin for MacroDeck
 ## Features
 Supported method: GET / POST / PUT / DELETE / PATCH
 
+Supported variables
+
 Default User-Agent: MacroDeck-WebRequest/1.0
 
 ## Variables
-A variable is created after the first request.
+A variable is created after the request.
+
 | Variable | Description | Type |
 | --- | --- | --- |
-| wr_responce_status | HTTP status code of last request | Integer |
-| wr_responce_body | Response of last request | String |
+| [Variable Name]_status<br>Default:wr_responce_status | HTTP status code of last request | Integer |
+| [Variable Name]_body<br>Default:wr_responce_body | Response of last request | String |

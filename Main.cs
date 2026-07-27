@@ -1,6 +1,4 @@
 using SuchByte.MacroDeck.Plugins;
-using SuchByte.MacroDeck.GUI.CustomControls;
-using System.Collections.Generic;
 using ziopuzzle.WebRequest.Action;
 
 namespace ziopuzzle.WebRequest
